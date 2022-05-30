@@ -1,4 +1,4 @@
-const { BaseLabel, BaseCheckBox } = require('./style');
+import { BaseLabel, BaseCheckBox } from './style';
 
 const Checkbox = ({ label, ...rest }) => {
   return (
